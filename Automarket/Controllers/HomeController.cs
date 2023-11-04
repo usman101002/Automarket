@@ -12,12 +12,12 @@ namespace Automarket.Controllers
 
         public HomeController(ILogger<HomeController> logger)
         {
+            int i = 5;
             _logger = logger;
         }
 
         public IActionResult Index()
         {
-            Car car = new();
             return View();
         }
 
